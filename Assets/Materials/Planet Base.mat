@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Planet Base
   m_Shader: {fileID: -6465566751694194690, guid: f25a4f4be3f521d4e9980b6194d6be4e, type: 3}
-  m_ShaderKeywords: _DISABLE_SSR_TRANSPARENT _NORMALMAP_TANGENT_SPACE
+  m_ShaderKeywords: _DISABLE_SSR_TRANSPARENT
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -119,6 +119,32 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - Band_1: 0.453
+    - Band_2: 0.528
+    - Band_3: 0.566
+    - Band_4: 0.719
+    - Band_5: 0
+    - Bump_Scale: 0.1
+    - Channel_Offset: 100
+    - Height_Slope: 7
+    - Laqunarity: 2
+    - Noise_Distorion_Scale: 3
+    - Noise_Distortion_Influence: 0.015
+    - Noise_Scale: 1
+    - Ocean_Color_Slope: 1.57
+    - Ocean_Coverage: 0
+    - Ocean_Edge_Falloff: 5.35
+    - Ocean_Inverse_Smoothing: 4.5
+    - Ocean_Laqunarity: 2
+    - Ocean_Level: 0.466
+    - Ocean_Noise_Distortion_Influence: 0.02
+    - Ocean_Noise_Distortion_Scale: 9.51
+    - Ocean_Noise_Scale: 1.97
+    - Ocean_Persistance: 0.5
+    - Ocean_Smoothing: 0
+    - Ocean_Smoothness: 0.654
+    - Persistance: 0.55
+    - Surface_Smoothness: 0.3
     - _AORemapMax: 1
     - _AORemapMin: 0
     - _ATDistance: 1
@@ -231,7 +257,17 @@ Material:
     - _ZTestGBuffer: 4
     - _ZTestTransparent: 4
     - _ZWrite: 1
+    - w_offset: 0
     m_Colors:
+    - Color_1: {r: 0.764151, g: 0.66779447, b: 0.50102353, a: 1}
+    - Color_2: {r: 0.5676836, g: 0.8018868, b: 0.374466, a: 1}
+    - Color_3: {r: 0.52622664, g: 0.7169812, b: 0.3551086, a: 1}
+    - Color_4: {r: 0.4188452, g: 0.6886792, b: 0.35408506, a: 1}
+    - Color_5: {r: 1, g: 1, b: 1, a: 1}
+    - Noise_Offset: {r: 0, g: 0, b: 0, a: 0}
+    - Ocean_Color_A: {r: 0, g: 0.67214394, b: 1, a: 1}
+    - Ocean_Color_B: {r: 0.014462441, g: 0.21292305, b: 0.6132076, a: 1}
+    - Ocean_Noise_Offset: {r: 2.4, g: 3.78, b: -0.75, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
